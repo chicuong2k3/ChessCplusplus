@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pieces">
+      <UniqueIdentifier>{1f425fb5-f394-4e15-93ac-99758ab9c5a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pieces\Headers">
+      <UniqueIdentifier>{a19ebbf6-ccb8-4ea9-b4f0-fafcc018ffad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pieces\Sources">
+      <UniqueIdentifier>{14aa8d6d-ba98-42da-8daa-994330f49815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Players">
+      <UniqueIdentifier>{845b7db0-601e-4cbd-a9ba-4d5fa181dcf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Board">
+      <UniqueIdentifier>{52d96772-3a60-43b1-9a82-a726b5019480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Board\Headers">
+      <UniqueIdentifier>{caca7346-6359-4468-a8c7-a30590ec8e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Board\Sources">
+      <UniqueIdentifier>{4a81fa00-c6c3-4973-9314-4124bc3b06cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Players\Headers">
+      <UniqueIdentifier>{c2a50374-b25c-4280-8bb1-83a22dfd4bcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Players\Sources">
+      <UniqueIdentifier>{083cc65e-fae1-4849-b7be-9db5445bb7cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bishop.cpp">
+      <Filter>Pieces\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="King.cpp">
+      <Filter>Pieces\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>Pieces\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Pawn.cpp">
+      <Filter>Pieces\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>Pieces\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Rook.cpp">
+      <Filter>Pieces\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Queen.cpp">
+      <Filter>Pieces\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Board\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Move.cpp">
+      <Filter>Board\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Board\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputerPlayer.cpp">
+      <Filter>Players\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="HumanPlayer.cpp">
+      <Filter>Players\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Players\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Music.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.h">
+      <Filter>Pieces\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Pawn.h">
+      <Filter>Pieces\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.h">
+      <Filter>Pieces\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Queen.h">
+      <Filter>Pieces\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Rook.h">
+      <Filter>Pieces\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bishop.h">
+      <Filter>Pieces\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="King.h">
+      <Filter>Pieces\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Board\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Move.h">
+      <Filter>Board\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Board\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputerPlayer.h">
+      <Filter>Players\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="HumanPlayer.h">
+      <Filter>Players\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Players\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Music.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
